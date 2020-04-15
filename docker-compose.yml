@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  apps:
+    build: .
+    volumes:
+      - ./echa_app/:/srv
+    working_dir: /srv
+    command: sh -c "mix deps.get --force && mix phx.server"
+    ports:
+      - '8090:4000'
