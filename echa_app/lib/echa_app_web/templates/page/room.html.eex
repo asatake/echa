@@ -1,0 +1,22 @@
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">お絵かきチャット</h1>
+      <p>マナーよく楽しくお絵かきチャットしましょう</p>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="field">
+    <div class="content">
+      <div class="box" id="canvasBox">
+        <canvas id="canvas" height="100"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>何かあれば @manome まで</p>
+</div>
